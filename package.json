@@ -1,0 +1,35 @@
+{
+  "name": "prs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "prestart": "node -e \"console.log('Starting on', process.env.PORT || 3000)\"",
+    "start": "sh -c 'next start -p ${PORT:-3000} -H 0.0.0.0'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^123.0.1",
+    "@supabase/supabase-js": "^2.88.0",
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "exceljs": "^4.4.0",
+    "formidable": "^3.5.4",
+    "next": "^14.0.0",
+    "papaparse": "^5.5.3",
+    "puppeteer": "^24.29.0",
+    "puppeteer-core": "^24.29.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
